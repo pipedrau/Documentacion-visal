@@ -695,7 +695,7 @@ export const BrutalismExample = () => {
 // Ejemplo Claymorphism
 export const ClaymorphismExample = () => {
   const [activeButton, setActiveButton] = useState<string | null>(null);
-  const [sliderValue, setSliderValue] = useState(75);
+  const sliderValue = 75;
   
   return (
     <TrendExample
